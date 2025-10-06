@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="main-header">Dynamic Weather Dashboard</h1>
+
+    <div class="search-bar">
+        <input type="text" id="city-input" placeholder="Search for a location...">
+        <button id="search-btn">Search</button>
+    </div>
+
+    <div class="weather-container">
+
+        <div class="current-weather">
+            <div class="location-details">
+                <h2 id="location">Loading...</h2>
+                <p id="date-time">----</p>
+                <p id="description">----</p>
+            </div>
+            <div class="temp-details">
+                <h1 id="temperature">--°C</h1>
+                <img id="weather-icon" src="" alt="Weather Icon">
+            </div>
+        </div>
+
+        <div class="details-grid">
+            <div class="detail-box">
+                <p class="label">FEELS LIKE</p>
+                <p class="value" id="feels-like">--°C</p>
+            </div>
+            <div class="detail-box">
+                <p class="label">HUMIDITY</p>
+                <p class="value" id="humidity">--%</p>
+            </div>
+            <div class="detail-box">
+                <p class="label">WIND SPEED</p>
+                <p class="value" id="wind-speed">-- km/h</p>
+            </div>
+            <div class="detail-box">
+                <p class="label">PRESSURE</p>
+                <p class="value" id="pressure">-- hPa</p>
+            </div>
+        </div>
+
+        <div class="forecast">
+            <h3>Forecast</h3>
+            <div class="forecast-grid" id="forecast-grid">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">Made by Rahul Devrani</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
