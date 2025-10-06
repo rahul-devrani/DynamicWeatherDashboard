@@ -40,6 +40,3 @@ Built using **HTML**, **CSS**, and **JavaScript**, it leverages the **OpenWeathe
 4. The data is fetched from **OpenWeatherMap**, parsed, and beautifully displayed in the UI.  
 
 ---
-
-## 🧭 Project Structure
-
